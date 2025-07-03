@@ -1,5 +1,5 @@
 <script setup>
-import { BookOpen, Search, Info, Mouse } from 'lucide-vue-next';
+import { BookOpen, Search, Info, Mouse, Bookmark } from 'lucide-vue-next';
 </script>
 
 <template>
@@ -19,6 +19,9 @@ import { BookOpen, Search, Info, Mouse } from 'lucide-vue-next';
         <a href="#how-to" class="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow transition">
           <Info class="w-4 h-4" /> Cara Menggunakan
         </a>
+          <router-link to="/bookmark" class="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow transition">
+            <Bookmark class="w-4 h-4" /> Bookmark
+          </router-link>
       </div>
     </div>
 
