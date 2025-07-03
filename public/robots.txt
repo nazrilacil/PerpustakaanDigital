@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://perpustakaan-digital-seven.vercel.app/sitemap.xml
