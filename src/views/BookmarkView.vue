@@ -15,6 +15,7 @@
 </template>
 
 <script setup>
+import { SquareArrowLeft } from 'lucide-vue-next';
 import { ref, onMounted } from 'vue'
 import BookCard from '@/components/BookCard.vue'
 import axios from 'axios'
