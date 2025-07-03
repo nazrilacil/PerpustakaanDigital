@@ -13,7 +13,7 @@ import { BookOpen, Search, Info, Mouse } from 'lucide-vue-next';
         Jelajah ribuan buku digital gratis dan tingkatkan literasi kapan saja, di mana saja.
       </p>
       <div class="flex flex-col sm:flex-row justify-center gap-4 pt-4">
-        <a href="#book-section" class="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow transition">
+        <a href="#book" class="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow transition">
           <Search class="w-4 h-4" /> Jelajah Buku
         </a>
         <a href="#how-to" class="flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow transition">
