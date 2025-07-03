@@ -9,10 +9,6 @@
                     </a>
                 </div>
                 <div class="flex items-center max-w-sm mx-auto gap-2">
-                    <router-link to="/bookmark" class="text-blue-600 hover:underline flex items-center gap-1">
-                        <Bookmark class="w-5 h-5" /> Bookmark
-                    </router-link>
-
                     <div class="relative w-full">
                         <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                             <BookCopy class="w-4 h-4 text-gray-500" />
