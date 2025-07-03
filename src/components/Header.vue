@@ -17,7 +17,7 @@
                         <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                             <BookCopy class="w-4 h-4 text-gray-500" />
                         </div>
-                        <input v-model="search" @keyup.enter="submit" type="text" placeholder="Cari Buku ..."
+                        <input v-model="search" @keyup.enter="submit" type="text" placeholder="Cari Buku ..." id="book"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5" />
                     </div>
                     <button @click="submit"
