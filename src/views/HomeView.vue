@@ -7,7 +7,7 @@
     </div>
 
     <!-- Book List -->
-    <div v-else class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div v-else class="grid grid-cols-2 lg:grid-cols-3 gap-6">
       <BookCard
         v-for="book in books"
         :key="book.id"
